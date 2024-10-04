@@ -79,8 +79,8 @@ def list_databases(client:InfluxDBClient):
     return result
 
 if __name__ == '__main__':
-    DEBUG = True
-    client      = get_client(verbose=DEBUG)
+    DEBUG  = True
+    client = get_client(verbose=DEBUG)
     # write_data(client)
     # read_data(client)
     # aggregate_data(client)
